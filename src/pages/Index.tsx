@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#008080] to-[#006666] text-white overflow-x-hidden">
-      {/* Top Navigation Bar - Windows 95 Style */}
+    <div className="min-h-screen bg-gradient-to-b from-[#008080] to-[#006666] text-white">
+      {/* Windows 95 Style Header */}
       <div className="bg-[#c0c0c0] border-b-[1px] border-t-[1px] border-white border-b-black px-4 py-1">
-        <div className="container mx-auto flex items-center space-x-4">
+        <div className="container mx-auto flex items-center">
           <span className="text-black font-['MS_Sans_Serif'] cursor-pointer hover:bg-[#000080] hover:text-white px-2">File</span>
           <span className="text-black font-['MS_Sans_Serif'] cursor-pointer hover:bg-[#000080] hover:text-white px-2">Edit</span>
           <span className="text-black font-['MS_Sans_Serif'] cursor-pointer hover:bg-[#000080] hover:text-white px-2">Help</span>
